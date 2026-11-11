@@ -1,0 +1,22 @@
+{
+  "name": "manajemen-inventory-barang",
+  "version": "1.0.0",
+  "description": "CRUD sederhana manajemen inventory barang dengan Express, Prisma, PostgreSQL, dan Vanilla JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.19.0"
+  }
+}
